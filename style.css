@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 62.5%;
+    background-color: #000000;
+    color: #fff;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+
+.container h1 a {
+    color: gold;
+    padding: 0 1rem 0 1rem;
+}
+
+.container button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #00FF2A;
+    /*background: #FFD8CF;*/
+    background-image: -webkit-linear-gradient(top, rgba(30,30,30,1) 0%,rgba(30,30,30,1) 12%,rgba(40,40,40,1) 25%,rgba(28,28,28,1) 39%,rgba(17,17,17,1) 50%,rgba(0,0,0,1) 51%,rgba(5,5,5,1) 60%,rgba(17,17,17,1) 76%,rgba(11,11,11,1) 91%,rgba(0,0,0,1) 100%);
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    color: #00FF2A;
+    transition: 0.2s ease-in-out;
+    width: 300px;
+    height: 80px;
+
+}
+
+.container button:hover {
+    border: 2px dashed #00FF2A;
+    cursor: pointer;
+    color: #00FF2A;
+    font-size: 40px;
+}
+
+.container p {
+    font-size: 2.5rem;
+    margin: 0.5rem;
+    margin-top: 1rem;
+}
+
+p {
+    display: none;
+}
+
+.tosscount {
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    color: #FFEA00;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #FFEA00;
+    margin-bottom: 20px;
+    padding-top: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+.refress{
+    text-align: center;
+}
+.refress a{
+    color: #00FCFF;
+    font-size: 24px;
+    margin-top: 20px;
+    display: inline-block;
+}
